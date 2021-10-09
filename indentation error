@@ -1,0 +1,19 @@
+identation error spaces ke vjah se hota hai.
+it separtes the block of code
+
+  ye kudh spaces deta hai ,agar hum spaces kam ya jyda krte hai to identation error occur hota hai
+  for ex :- 1)
+a=5
+print(a)
+they do not show indentation error
+but when we take
+  a=5
+  print(a)
+  it shows indentation error
+
+  2)
+if 5>3;
+     print("hello")
+     in this case it creates spaces in front of print("hello") line
+  if we lower the value of spaces in this ,then its shows indentation error....
+
