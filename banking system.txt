@@ -1,0 +1,26 @@
+package com.company;
+import javax.swing.*;
+public class A {
+    JFrame f;
+    JTextField t;
+    JButton b;
+    public A()
+    {
+        f = new JFrame("RD Engineering college");
+        t = new JTextField();
+        b = new JButton("Submit");
+        f.setSize(300,300);
+        f.setVisible(true);
+        f.setLayout(null);
+        f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        t.setBounds(100,50,100,50);
+        b.setBounds(125,150,100,50);
+        f.add(t);
+        f.add(b);
+    }
+    public static void main(String[] args)
+
+    {
+        new A();
+    }
+}
